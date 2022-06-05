@@ -1,0 +1,68 @@
+header h3{
+    border-bottom: 2px solid #A52A2A;
+}
+
+main{
+    padding: 5vh 5vw;
+}
+section{
+    display: flex;
+    margin-bottom: 15vh;
+}
+.profile-content{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.profile-info h5{
+    color: rgba(0,0,0,0.5);
+
+}
+.profile-info span{
+    margin: 0 0.5vw;
+}
+.profile-para{
+    flex-basis: 70%;
+}
+.profile-para p{
+    border-left: 1px solid #000;
+    padding-left: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.third-profile .profile-content img{
+    border-radius: 50%;
+}
+@media (max-width:600px){
+    body{
+        height: 100%;
+    }
+    section{
+        flex-direction: column;
+    }
+    .profile-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile-info h5{
+        text-align: center;
+    }
+    .profile-para p{
+        padding: 0;
+        border: 0;
+        text-align: center;
+    }
+    .profile-info div{
+        display: flex;
+        justify-content: center;
+    }
+}
